@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+
+.nav > li > a:focus, .nav > li > a:hover {
+    text-decoration: none;
+    background-color: #286090;
+}
+a:active, a:hover {
+    outline: 0;
+}
+a {
+    color: #f1f5f8;
+    text-decoration: none;
+}
+.nav > li > a:focus, .nav > li > a:hover {
+    text-decoration: none;
+    background-color: #337ab7;
+}
+a.bg-primary:focus, a.bg-primary:hover {
+    background-color: #337ab7;
+}
